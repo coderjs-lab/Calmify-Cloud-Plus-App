@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "Calmify Cloud+",
+    "slug": "calmify-cloud",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "orientation": "portrait",
+    "icon": "./assets/cloud-logo.png",
+    "splash": {
+      "image": "./assets/splash-cloud.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.app.calmifycloud"
+    }
+  }
+}
